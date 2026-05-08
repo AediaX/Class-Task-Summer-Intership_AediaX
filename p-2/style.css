@@ -1,0 +1,32 @@
+        
+        #F1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        #F2{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        #F3{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+        #container{
+            display: flex;
+            justify-content: space-around;
+  
+        }
+
+        .Designing{
+            border: 5px solid black;
+            filter: drop-shadow(10px 10px 5px black);
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+           
+        }
