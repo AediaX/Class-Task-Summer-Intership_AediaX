@@ -1,0 +1,35 @@
+*{
+   
+    color: rgb(255, 255, 255);
+}
+body{
+   min-height: 100vh;
+    background: url('bgImage.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.157);
+    border-radius: 50%;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 10px 109px rgb(0, 0, 0);
+}
+#bg{
+    background-image: url('re-image.png');
+    width: 5000px;
+    height: 100px;
+    background-repeat:repeat-x
+}
