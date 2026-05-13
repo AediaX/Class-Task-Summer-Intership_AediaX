@@ -1,0 +1,63 @@
+/* ABOUT PAGE SECTIONS */
+
+.about-section{
+    padding: 80px 10% 40px;
+}
+
+.place-section{
+    padding: 70px 10%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.place-section.reverse{
+    flex-direction: row-reverse;
+}
+
+.place-image{
+    flex: 1;
+}
+
+.place-image img{
+    width: 100%;
+    border-radius: 14px;
+    height: 380px;
+    object-fit: cover;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.place-content{
+    flex: 1;
+}
+
+.place-content h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.place-content p{
+    line-height: 1.9;
+    margin-bottom: 18px;
+    color: #555;
+    font-size: 17px;
+}
+
+@media(max-width:768px){
+
+    .place-section{
+        padding: 50px 5%;
+        gap: 30px;
+    }
+
+    .place-image img{
+        height: 250px;
+    }
+
+    .place-content h2{
+        font-size: 28px;
+    }
+
+}

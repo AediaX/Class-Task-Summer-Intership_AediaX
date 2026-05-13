@@ -1,0 +1,44 @@
+/* HISTORY PAGE */
+
+.page-container{
+    padding: 80px 10%;
+}
+
+.history-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 30px;
+}
+
+.history-box{
+    background: #fff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.history-box:hover{
+    transform: translateY(-5px);
+}
+
+.history-box h3{
+    margin-bottom: 18px;
+    color: #222;
+    font-size: 24px;
+}
+
+.history-box p{
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+@media(max-width:768px){
+
+    .page-container{
+        padding: 60px 5%;
+    }
+
+}
